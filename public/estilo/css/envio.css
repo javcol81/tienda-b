@@ -1,0 +1,46 @@
+
+
+
+input[type="radio"]{
+    
+     cursor: pointer;
+     
+    
+ }
+
+
+
+ .contenedor-form{
+    
+    width: 100%;
+    
+ }
+button{
+
+    margin: auto;
+    width: 150px;
+}
+ 
+label{
+    text-transform: uppercase;
+    font-weight: 100;
+   
+    font-size: 16px;
+    
+    border-radius: 5px;
+    
+    
+    width: 110px;
+    
+   
+   
+    cursor: pointer;
+  }
+
+
+#pedi:checked ~ .direcciones .dire,
+#pedi:checked ~ .direcciones .agregar{
+ 
+
+    display: none;
+  }
